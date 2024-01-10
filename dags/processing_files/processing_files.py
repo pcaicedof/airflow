@@ -33,9 +33,6 @@ default_args = {
 }
 
 
-
-
-
 def get_file_list(folder, extension):
     try:
         file_list = [file for file in listdir(folder) if file.endswith(extension) is True]
